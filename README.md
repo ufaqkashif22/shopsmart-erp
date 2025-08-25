@@ -43,10 +43,10 @@ Database: MongoDB Atlas cluster
 
 ## 📸 Screenshots
 ### Dashboard
-![Dashboard Screenshot](./public/screenshorts/Screenshot%20(603).png)
+![Dashboard](https://raw.githubusercontent.com/ufaqkashif22/shopsmart-erp/main/public/screenshorts/dashboard.png)
 
 ### Ordes
-![Orders Screenshot](./public/screenshorts/Screenshot%20(604).png)
+![Orders](https://raw.githubusercontent.com/ufaqkashif22/shopsmart-erp/main/public/screenshorts/orders.png)
 
 
 👨‍💻 Author

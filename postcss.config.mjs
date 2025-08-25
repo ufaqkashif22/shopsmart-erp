@@ -1,3 +1,4 @@
+//D:\ecommerce\ecomerce-fullstack\postcss.config.mjs
 const config = {
   plugins: ["@tailwindcss/postcss"],
 };
