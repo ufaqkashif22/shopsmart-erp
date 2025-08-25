@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# ShopSmart – Fullstack E-Commerce / ERP Demo
 
-First, run the development server:
+This project is a fullstack **Next.js 15 + TypeScript + TailwindCSS** frontend with an **Express + MongoDB** backend.  
+It includes modules for **Products, Orders, Categories, Users**, and a modern **ERP-style Dashboard**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack
+- **Frontend:** Next.js 15, TypeScript, TailwindCSS, shadcn/ui, Recharts
+- **Backend:** Node.js, Express, MongoDB (Mongoose)
+- **Auth:** JWT-based authentication with Bearer tokens
+- **Deployment:** Vercel (frontend), MongoDB Atlas (database), Render/Heroku/local (backend)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Project Structure
+ecomerce-fullstack/
+├── app/ # Next.js app directory
+│ ├── dashboard/ # ERP dashboard with stats + chart
+│ ├── inventory/ # Inventory management
+│ ├── orders/ # Orders list & status updates
+│ ├── customers/ # Placeholder module
+│ ├── products/ # Placeholder module
+│ └── components/ # Reusable UI components (Navbar, Cards, etc.)
+├── backend/ # Express API
+│ ├── src/config/ # DB connection
+│ ├── src/controllers # Controllers (products, orders, users)
+│ ├── src/routes/ # Express routes
+│ └── src/index.js # API entry point
+├── lib/api.ts # Frontend API helper functions
+├── .env.local # Frontend environment variables
+├── .env # Backend environment variables
+└── package.json
 
-## Learn More
+📦 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Frontend: Deploy to Vercel → .env.local → NEXT_PUBLIC_API_URL must point to backend URL
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Backend: Deploy to Render/Heroku/any Node host with MongoDB Atlas connection
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Database: MongoDB Atlas cluster
 
-## Deploy on Vercel
+## 📸 Screenshots
+### Dashboard
+![Dashboard Screenshot](./public/screenshorts/Screenshot%20(603).png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Ordes
+![Orders Screenshot](./public/screenshorts/Screenshot%20(604).png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+👨‍💻 Author
+Ufaq Kashif
+React Frontend Developer • Fullstack Enthusiast
