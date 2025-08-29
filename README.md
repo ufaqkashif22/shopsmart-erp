@@ -10,7 +10,7 @@ It includes modules for **Products, Orders, Categories, Users**, and a modern **
 - **Frontend:** Next.js 15, TypeScript, TailwindCSS, shadcn/ui, Recharts
 - **Backend:** Node.js, Express, MongoDB (Mongoose)
 - **Auth:** JWT-based authentication with Bearer tokens
-- **Deployment:** Vercel (frontend), MongoDB Atlas (database), Render/Heroku/local (backend)
+- **Deployment:** Vercel (frontend), MongoDB Atlas (database), Railway (backend)
 
 ---
 
@@ -37,9 +37,11 @@ ecomerce-fullstack/
 
 Frontend: Deploy to Vercel → .env.local → NEXT_PUBLIC_API_URL must point to backend URL
 
-Backend: Deploy to Render/Heroku/any Node host with MongoDB Atlas connection
+Backend: Deploy to Railway host with MongoDB Atlas connection
 
 Database: MongoDB Atlas cluster
+
+User (Browser) → Vercel (Frontend) → Railway (Backend API) → MongoDB Atlas (Database)
 
 ## 📸 Screenshots
 ### Dashboard
